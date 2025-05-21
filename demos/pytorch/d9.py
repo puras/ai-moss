@@ -1,9 +1,9 @@
 import torch
 import torch.nn.functional as F
 
-from demos.d4 import NeuralNetwork
-from demos.d5 import X_train, Y_train
-from demos.d8 import train_loader
+from demos.pytorch.d4 import NeuralNetwork
+from demos.pytorch.d5 import X_train, Y_train
+from demos.pytorch.d8 import train_loader
 
 torch.manual_seed(123)
 

@@ -1,7 +1,7 @@
 import torch
 from torch.utils.data import DataLoader
 
-from demos.d6 import train_ds, test_ds
+from demos.pytorch.d6 import train_ds, test_ds
 
 torch.manual_seed(123)
 

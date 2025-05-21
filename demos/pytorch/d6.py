@@ -1,6 +1,6 @@
 from torch.utils.data import Dataset
 
-from demos.d5 import X_train, Y_train, X_test, Y_test
+from demos.pytorch.d5 import X_train, Y_train, X_test, Y_test
 
 
 class ToyDataset(Dataset):

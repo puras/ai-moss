@@ -1,7 +1,7 @@
 import torch
 
-from demos.d8 import train_loader
-from demos.d9 import model
+from demos.pytorch.d8 import train_loader
+from demos.pytorch.d9 import model
 
 
 def compute_accuracy(model, dataloader):

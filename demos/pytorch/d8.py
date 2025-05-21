@@ -1,6 +1,6 @@
 from torch.utils.data import DataLoader
 
-from demos.d6 import train_ds
+from demos.pytorch.d6 import train_ds
 
 train_loader = DataLoader(
     dataset=train_ds,
